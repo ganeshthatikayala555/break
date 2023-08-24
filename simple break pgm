@@ -1,0 +1,18 @@
+public class BreakExample {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 27, 8, 63, 34, 19};
+
+        int x=8;
+
+        for (int num : numbers) {
+           if(num==x){
+               break;
+           }
+          System.out.println(num);
+        }
+    }
+}
+
+////output:12
+           45
+           27
